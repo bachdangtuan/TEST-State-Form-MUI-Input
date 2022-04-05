@@ -2,23 +2,24 @@
 Xử lý trên state component
 1 . Khởi tạo giá trị state với 2 object
  state = {
-        values: {
-            firstName: '',
-            lastName: '',
-            username: '',
-            email: '',
-            password: '',
-            passwordConfirm: '',
-        },
-        errors: {
-            firstName: '',
-            lastName: '',
-            username: '',
-            email: '',
-            password: '',
-            passwordConfirm: '',
-        }
-    }
+ </br>
+        values: { </br>
+            firstName: '', </br>
+            lastName: '', </br>
+            username: '', </br>
+            email: '', </br>
+            password: '', </br>
+            passwordConfirm: '', </br>
+        }, </br>
+        errors: { </br>
+            firstName: '', </br>
+            lastName: '', </br>
+            username: '', </br>
+            email: '', </br>
+            password: '', </br>
+            passwordConfirm: '', </br>
+        } </br>
+    } </br>
 
 2. Chạy hàm handleChangValue truyền vào tham số event tại input bắt tại sự kiện onChange
 onChange={this.handleChangValue}
@@ -31,4 +32,4 @@ onChange={this.handleChangValue}
     preventDefault();
     - set điều kiện valid với giá trị nhập vào
     
-
+Chưa xét các điều kiện phức tạp khi validation
