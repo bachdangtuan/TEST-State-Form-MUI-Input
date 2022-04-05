@@ -2,6 +2,7 @@
 Xử lý trên state component
 1 . Khởi tạo giá trị state với 2 object
  state = {
+ </br>
         values: {
             firstName: '',
             lastName: '',
