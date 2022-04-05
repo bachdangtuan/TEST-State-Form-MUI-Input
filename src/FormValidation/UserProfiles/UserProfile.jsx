@@ -32,6 +32,8 @@ export default class UserProfile extends Component {
 
         if (value.trim() === '') {
             newerros[name] = name + 'is required !'
+        } else {
+            newerros[name] = '';
         }
         // Kiểm tra Email
         if (type === 'email') {
