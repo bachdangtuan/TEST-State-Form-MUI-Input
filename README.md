@@ -3,23 +3,23 @@ Xử lý trên state component
 1 . Khởi tạo giá trị state với 2 object
  state = {
  </br>
-        values: {
-            firstName: '',
-            lastName: '',
-            username: '',
-            email: '',
-            password: '',
-            passwordConfirm: '',
-        },
-        errors: {
-            firstName: '',
-            lastName: '',
-            username: '',
-            email: '',
-            password: '',
-            passwordConfirm: '',
-        }
-    }
+        values: { </br>
+            firstName: '', </br>
+            lastName: '', </br>
+            username: '', </br>
+            email: '', </br>
+            password: '', </br>
+            passwordConfirm: '', </br>
+        }, </br>
+        errors: { </br>
+            firstName: '', </br>
+            lastName: '', </br>
+            username: '', </br>
+            email: '', </br>
+            password: '', </br>
+            passwordConfirm: '', </br>
+        } </br>
+    } </br>
 
 2. Chạy hàm handleChangValue truyền vào tham số event tại input bắt tại sự kiện onChange
 onChange={this.handleChangValue}
