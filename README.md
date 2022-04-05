@@ -32,4 +32,4 @@ onChange={this.handleChangValue}
     preventDefault();
     - set điều kiện valid với giá trị nhập vào
     
-
+Chưa xét các điều kiện phức tạp khi validation
